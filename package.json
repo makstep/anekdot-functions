@@ -11,9 +11,15 @@
     "build:production": "npm run prestart && npm prune --production",
     "test": "echo \"No tests yet...\""
   },
-  "dependencies": {},
+  "dependencies": {
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.19"
+  },
   "devDependencies": {
     "@azure/functions": "^1.0.1-beta2",
+    "@types/mongodb": "^3.1.22",
+    "@types/mongoose": "^5.3.23",
+    "@types/node": "^11.11.3",
     "typescript": "^3.3.3"
   }
 }
